@@ -1,0 +1,25 @@
+* {
+  background-color: #fdedd2;
+}
+
+@font-face {
+  font-family: "SaveurSans-Light";
+  src: url("/font/SaveurSans-Light.otf");
+}
+
+img {
+  width: 400px;
+}
+
+div {
+  width: 400px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "SaveurSans-Light", sans-serif;
+}
