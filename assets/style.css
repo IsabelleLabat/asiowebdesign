@@ -2,9 +2,8 @@
   background-color: #fdedd2;
 }
 
-@font-face {
-  font-family: "SaveurSans-Light";
-  src: url("/font/SaveurSans-Light.otf");
+body {
+  font-family: "Maven Pro";
 }
 
 img {
@@ -21,7 +20,8 @@ div {
 }
 
 h1 {
-  font-family: "SaveurSans-Light", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
@@ -30,5 +30,8 @@ h1 {
   }
   div {
     width: 200px;
+  }
+  h1 {
+    font-size: 16px;
   }
 }
