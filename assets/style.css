@@ -23,3 +23,9 @@ div {
 h1 {
   font-family: "SaveurSans-Light", sans-serif;
 }
+
+@media screen and (max-width: 767px) {
+  img {
+    width: 200px;
+  }
+}
