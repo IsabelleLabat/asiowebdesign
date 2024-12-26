@@ -1,7 +1,11 @@
 * {
   background-color: #fdedd2;
+  color: #464646;
 }
 
+a:link {
+  text-decoration: none;
+}
 body {
   font-family: "Maven Pro";
 }
